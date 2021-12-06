@@ -2,15 +2,16 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import datetime
 
 
 def function_1():
-    name = input("What is your name? : ")
-    print('Hello{name}')
+    x = datetime.datetime.now()
+    print(x)
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    function_1()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
