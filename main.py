@@ -3,14 +3,17 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
+import random
+import randint
 
-def function_1():
-    name = input("What is your name? : ")
-    print('Hello{name}')
+
+def function_2():
+    for i in range(10):
+        print(randint(1, 25))
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    function_2()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
